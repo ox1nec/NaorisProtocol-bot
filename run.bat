@@ -1,7 +1,8 @@
-@echo off  
+@echo off 
 title Bot
     if exist requirements.txt (
 		echo installing wheel for faster installing
+                python bot.py
 		pip install wheel
         echo Installing dependencies... 
         pip install -r requirements.txt
@@ -14,8 +15,6 @@ title Bot
 )
 
 echo Starting the bot...
-python bot.py
 
 echo failed
 pause
-
