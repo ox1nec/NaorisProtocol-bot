@@ -13,4 +13,4 @@ fake-useragent==1.5.1
 colorama
 pydantic_core==2.16.3
 PySocks==1.7.1
-requests 
+requests
